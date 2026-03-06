@@ -16,7 +16,7 @@ Since the metric depends on the decision threshold, we use predicted probabiliti
 
 ---
 
-
+```
 ## 🏗 Project Structure
 .
 ├── 1.EDA/               # Exploratory Data Analysis
@@ -27,7 +27,7 @@ Since the metric depends on the decision threshold, we use predicted probabiliti
 ├── 6.Data/              # Train & Test datasets
 ├── 7.Submission/        # Final submission file
 └── README.md
-
+```
 
 ---
 
