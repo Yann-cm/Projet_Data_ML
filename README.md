@@ -16,73 +16,6 @@ Since the metric depends on the decision threshold, we use predicted probabiliti
 
 ---
 
-## 📊 Dataset Description
-
-The dataset is:
-
-- Realistic and business-oriented
-- Voluminous (~200,000 rows)
-- Imperfect (like real-world data)
-- Containing missing values, outliers, duplicates, and redundant variables
-
-Each row represents a **customer account snapshot** at decision time.
-
-### 🔹 Target Variable (Train Only)
-
-- `target_is_fraud` (binary)
-  - `1` = Fraud / chargeback risk
-  - `0` = Normal account
-
----
-
-### 🔹 Main Feature Categories
-
-#### 1. Identifiers
-- `customer_id`
-- `account_id`  
-(Not used for modeling)
-
-#### 2. Demographics & Account Information
-- `age`
-- `tenure_months`
-- `annual_income_eur`
-- `credit_score`
-
-#### 3. Transactional & Behavioral Features
-- Transaction counts and amounts (30 days)
-- Ratios (e.g. `max_to_avg_ratio`)
-- Login activity
-- Support interactions
-- Historical chargebacks
-- Failed payments
-
-#### 4. Device & Risk Signals
-- Device trust score
-- IP risk score
-- VPN usage
-- New device detection
-- Device type
-
-#### 5. Geographic Information
-- Country
-- Region
-- City
-- Postal code
-
-#### 6. Text Fields
-- `last_ticket_subject`
-- `customer_note`
-
-#### 7. Additional Operational Signals
-- Internal signals (`internal_signal_1` to `internal_signal_8`)
-- Partner risk indicators
-- Legacy risk scores
-- Manual review results
-
-#### 8. Date Feature
-- `signup_date`
-
----
 
 ## 🏗 Project Structure
 ./
@@ -304,4 +237,70 @@ This project demonstrates:
 
 
 
+## 📊 Dataset Description
 
+The dataset is:
+
+- Realistic and business-oriented
+- Voluminous (~200,000 rows)
+- Imperfect (like real-world data)
+- Containing missing values, outliers, duplicates, and redundant variables
+
+Each row represents a **customer account snapshot** at decision time.
+
+### 🔹 Target Variable (Train Only)
+
+- `target_is_fraud` (binary)
+  - `1` = Fraud / chargeback risk
+  - `0` = Normal account
+
+---
+
+### 🔹 Main Feature Categories
+
+#### 1. Identifiers
+- `customer_id`
+- `account_id`  
+(Not used for modeling)
+
+#### 2. Demographics & Account Information
+- `age`
+- `tenure_months`
+- `annual_income_eur`
+- `credit_score`
+
+#### 3. Transactional & Behavioral Features
+- Transaction counts and amounts (30 days)
+- Ratios (e.g. `max_to_avg_ratio`)
+- Login activity
+- Support interactions
+- Historical chargebacks
+- Failed payments
+
+#### 4. Device & Risk Signals
+- Device trust score
+- IP risk score
+- VPN usage
+- New device detection
+- Device type
+
+#### 5. Geographic Information
+- Country
+- Region
+- City
+- Postal code
+
+#### 6. Text Fields
+- `last_ticket_subject`
+- `customer_note`
+
+#### 7. Additional Operational Signals
+- Internal signals (`internal_signal_1` to `internal_signal_8`)
+- Partner risk indicators
+- Legacy risk scores
+- Manual review results
+
+#### 8. Date Feature
+- `signup_date`
+
+---
