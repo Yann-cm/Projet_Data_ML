@@ -18,15 +18,14 @@ Since the metric depends on the decision threshold, we use predicted probabiliti
 
 
 ## 🏗 Project Structure
-./
-│
-├── 1.EDA/ → Exploratory Data Analysis
-├── 2.Proces/ → Preprocessing pipeline
-├── 3.modelisation/ → Modeling experiments
-├── 4.Models/ → Saved final model
-├── 5.Preds/ → (Not used)
-├── 6.Data/ → Train & Test datasets
-├── 7.Submission/ → Final submission file
+.
+├── 1.EDA/               # Exploratory Data Analysis
+├── 2.Proces/            # Preprocessing pipeline
+├── 3.modelisation/      # Modeling experiments
+├── 4.Models/            # Saved final model
+├── 5.Preds/             # (Not used)
+├── 6.Data/              # Train & Test datasets
+├── 7.Submission/        # Final submission file
 └── README.md
 
 
