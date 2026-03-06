@@ -15,6 +15,16 @@ The evaluation metric is the **F1-score on the positive class (fraud)**.
 Since the metric depends on the decision threshold, we use predicted probabilities and select an optimal threshold based on validation results.
 
 ---
+## 📈 Objective
+
+The goal is to:
+
+- Build a robust fraud detection pipeline
+- Maximize F1-score on fraudulent accounts
+- Simulate a real-world machine learning workflow
+- Ensure reproducibility and modularity
+
+---
 
 ```
 ## 🏗 Project Structure
