@@ -31,6 +31,41 @@ Since the metric depends on the decision threshold, we use predicted probabiliti
 
 ---
 
+## 🚀 How To Run the Project
+
+### 1️⃣ Place the Data
+Put train and test files inside: 6.Data/
+
+
+With correct names.
+
+---
+
+### 2️⃣ Run Preprocessing
+Execute: 2.Proces/Preprocess_FInale.ipynb
+
+
+This prepares the data.
+
+---
+
+### 3️⃣ Train the Model (Optional if using saved model)
+
+Run: 3.modelisation/XG_Boots_model_Finale.ipynb
+
+
+---
+
+### 4️⃣ Generate Predictions
+
+Use the trained model to:
+
+- Predict probabilities
+- Apply optimal threshold
+- Export submission file
+---
+
+
 ## 🔎 Project Workflow
 
 ### Step 1 — Exploratory Data Analysis (EDA)
@@ -166,40 +201,6 @@ Special attention was given to:
 
 The pipeline is designed to remain robust in realistic business conditions.
 
----
-
-## 🚀 How To Run the Project
-
-### 1️⃣ Place the Data
-Put train and test files inside: 6.Data/
-
-
-With correct names.
-
----
-
-### 2️⃣ Run Preprocessing
-Execute: 2.Proces/Preprocess_FInale.ipynb
-
-
-This prepares the data.
-
----
-
-### 3️⃣ Train the Model (Optional if using saved model)
-
-Run: 3.modelisation/XG_Boots_model_Finale.ipynb
-
-
----
-
-### 4️⃣ Generate Predictions
-
-Use the trained model to:
-
-- Predict probabilities
-- Apply optimal threshold
-- Export submission file
 
 ---
 
