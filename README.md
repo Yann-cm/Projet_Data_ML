@@ -204,16 +204,6 @@ The pipeline is designed to remain robust in realistic business conditions.
 
 ---
 
-## 📈 Objective
-
-The goal is to:
-
-- Build a robust fraud detection pipeline
-- Maximize F1-score on fraudulent accounts
-- Simulate a real-world machine learning workflow
-- Ensure reproducibility and modularity
-
----
 
 ## 👥 Team & Methodology
 
